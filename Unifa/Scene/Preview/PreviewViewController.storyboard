@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Preview-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="PreviewViewController" id="Y6W-OH-hqX" customClass="PreviewViewController" customModule="Unifa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UgY-6k-rY5">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8z-9K-Wsl" customClass="RoundedView" customModule="Unifa" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="110" width="345" height="728"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-Jf-PHJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="728"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hpg-Jf-PHJ" secondAttribute="trailing" id="CiT-yo-WQR"/>
+                                            <constraint firstItem="hpg-Jf-PHJ" firstAttribute="leading" secondItem="a8z-9K-Wsl" secondAttribute="leading" id="RH0-JQ-KDy"/>
+                                            <constraint firstItem="hpg-Jf-PHJ" firstAttribute="top" secondItem="a8z-9K-Wsl" secondAttribute="top" id="Wd1-uT-ZpP"/>
+                                            <constraint firstAttribute="width" secondItem="a8z-9K-Wsl" secondAttribute="height" multiplier="335:707" id="kdH-wr-Mjc"/>
+                                            <constraint firstAttribute="bottom" secondItem="hpg-Jf-PHJ" secondAttribute="bottom" id="rOu-eH-g06"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="maskClip" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backGroundColor">
+                                                <color key="value" name="AccentColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="opacity">
+                                                <real key="value" value="0.69999999999999996"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="a8z-9K-Wsl" firstAttribute="leading" secondItem="UgY-6k-rY5" secondAttribute="leading" constant="24" id="Lvh-fl-AJN"/>
+                                    <constraint firstAttribute="trailing" secondItem="a8z-9K-Wsl" secondAttribute="trailing" constant="24" id="OA0-In-PHC"/>
+                                    <constraint firstItem="a8z-9K-Wsl" firstAttribute="top" secondItem="UgY-6k-rY5" secondAttribute="top" constant="110" id="Ypk-YU-cZR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="UgY-6k-rY5" secondAttribute="bottom" id="4eG-3u-b3z"/>
+                            <constraint firstItem="UgY-6k-rY5" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Jq4-Lx-nxK"/>
+                            <constraint firstItem="UgY-6k-rY5" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Vhk-iq-7LU"/>
+                            <constraint firstItem="UgY-6k-rY5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="YYG-OF-fwe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Preview" id="Jbo-hY-5c9"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="previewImageView" destination="hpg-Jf-PHJ" id="REd-X2-Pln"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="-20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
