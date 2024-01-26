@@ -88,7 +88,6 @@
 		576757212B60FEA5007BD2C3 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		576757222B60FEA5007BD2C3 /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
 		5789ADAD2B63BD7A003F2448 /* UIScrollView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Ext.swift"; sourceTree = "<group>"; };
-		5789ADAF2B63E6B5003F2448 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		578BCC002B5F790800AC7767 /* Unifa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unifa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BCC032B5F790800AC7767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578BCC052B5F790800AC7767 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -261,7 +260,6 @@
 		578BCBF72B5F790800AC7767 = {
 			isa = PBXGroup;
 			children = (
-				5789ADAF2B63E6B5003F2448 /* README.md */,
 				57D6CEFA2B63EB5300B641A0 /* Unifa.xctestplan */,
 				578BCC022B5F790800AC7767 /* Unifa */,
 				578BCC1C2B5F790B00AC7767 /* UnifaTests */,
