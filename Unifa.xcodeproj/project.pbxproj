@@ -44,6 +44,7 @@
 		57930B4E2B614D5200319106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57930B4D2B614D5200319106 /* ViewController.swift */; };
 		57930B502B614E8C00319106 /* ObservableType+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57930B4F2B614E8C00319106 /* ObservableType+Ext.swift */; };
 		57930B532B6167FF00319106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57930B522B6167FF00319106 /* Constants.swift */; };
+		57D6CEFB2B63EB5300B641A0 /* Unifa.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 57D6CEFA2B63EB5300B641A0 /* Unifa.xctestplan */; };
 		57EA6ED62B625AD800362DF3 /* AppCoordinatingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA6ED52B625AD800362DF3 /* AppCoordinatingProtocol.swift */; };
 		57EA6ED82B625B6C00362DF3 /* ViewModelBindableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA6ED72B625B6C00362DF3 /* ViewModelBindableProtocol.swift */; };
 		57EA6EDE2B62BD1B00362DF3 /* PreviewViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA6EDA2B62BB7700362DF3 /* PreviewViewModelTest.swift */; };
@@ -113,6 +114,7 @@
 		57930B4D2B614D5200319106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57930B4F2B614E8C00319106 /* ObservableType+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Ext.swift"; sourceTree = "<group>"; };
 		57930B522B6167FF00319106 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		57D6CEFA2B63EB5300B641A0 /* Unifa.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Unifa.xctestplan; sourceTree = "<group>"; };
 		57EA6ED52B625AD800362DF3 /* AppCoordinatingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatingProtocol.swift; sourceTree = "<group>"; };
 		57EA6ED72B625B6C00362DF3 /* ViewModelBindableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableProtocol.swift; sourceTree = "<group>"; };
 		57EA6EDA2B62BB7700362DF3 /* PreviewViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewModelTest.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				5789ADAF2B63E6B5003F2448 /* README.md */,
+				57D6CEFA2B63EB5300B641A0 /* Unifa.xctestplan */,
 				578BCC022B5F790800AC7767 /* Unifa */,
 				578BCC1C2B5F790B00AC7767 /* UnifaTests */,
 				578BCC262B5F790B00AC7767 /* UnifaUITests */,
@@ -500,6 +503,7 @@
 				576757242B60FEA5007BD2C3 /* GridCell.xib in Resources */,
 				57930B462B61255800319106 /* PreviewViewController.storyboard in Resources */,
 				578BCC102B5F790B00AC7767 /* Assets.xcassets in Resources */,
+				57D6CEFB2B63EB5300B641A0 /* Unifa.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
