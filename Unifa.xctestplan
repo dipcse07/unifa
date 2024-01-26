@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "39750619-F1E4-4086-9566-7573A3511F04",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Unifa.xcodeproj",
+      "identifier" : "578BCBFF2B5F790800AC7767",
+      "name" : "Unifa"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Unifa.xcodeproj",
+        "identifier" : "578BCC182B5F790B00AC7767",
+        "name" : "UnifaTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Unifa.xcodeproj",
+        "identifier" : "578BCC222B5F790B00AC7767",
+        "name" : "UnifaUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
